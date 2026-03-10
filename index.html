@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Politique de confidentialité – StyleVault</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #faf8f5;
+      color: #2d2218;
+      line-height: 1.7;
+    }
+    header {
+      background: #5c3d2e;
+      color: #fff;
+      padding: 48px 24px 36px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.5px; }
+    header p  { margin-top: 8px; font-size: 14px; opacity: 0.75; }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #5c3d2e;
+      margin: 36px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #e8ddd3;
+    }
+    h2:first-of-type { margin-top: 0; }
+    p  { margin-bottom: 12px; font-size: 15px; color: #3d2c1e; }
+    ul { margin: 8px 0 12px 20px; }
+    li { margin-bottom: 6px; font-size: 15px; color: #3d2c1e; }
+    .chip {
+      display: inline-block;
+      background: #ede4d9;
+      color: #5c3d2e;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-right: 6px;
+      margin-bottom: 6px;
+    }
+    .box {
+      background: #fff;
+      border: 1px solid #e8ddd3;
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin: 12px 0;
+    }
+    .box p { margin: 0; }
+    a { color: #5c3d2e; }
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+      color: #9e8474;
+      border-top: 1px solid #e8ddd3;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>👗 StyleVault</h1>
+  <p>Politique de confidentialité &nbsp;·&nbsp; Dernière mise à jour : mars 2026</p>
+</header>
+
+<main>
+
+  <h2>1. Introduction</h2>
+  <p>
+    StyleVault (« l'Application », « nous ») est une application mobile de gestion de garde-robe et de conseils de style
+    développée et exploitée par Bertrand Vande. Nous prenons la protection de vos données personnelles très au sérieux.
+  </p>
+  <p>
+    La présente politique de confidentialité vous informe de la nature des données que nous collectons, de la façon dont
+    nous les utilisons, et de vos droits conformément au Règlement Général sur la Protection des Données (RGPD – UE 2016/679).
+  </p>
+
+  <h2>2. Données collectées</h2>
+
+  <p><strong>Données de compte</strong></p>
+  <ul>
+    <li>Adresse e-mail (utilisée pour l'authentification)</li>
+    <li>Prénom, âge, genre et centres d'activité (renseignés lors de l'onboarding – optionnels)</li>
+    <li>Photo de profil (optionnelle, stockée sur nos serveurs)</li>
+  </ul>
+
+  <p><strong>Données de garde-robe</strong></p>
+  <ul>
+    <li>Photos de vêtements que vous ajoutez à votre placard virtuel</li>
+    <li>Métadonnées assoccées : nom, catégorie, couleur, saison</li>
+    <li>Tenues sauvegardées et vêtements favoris</li>
+  </ul>
+
+  <p><strong>Données de localisation</strong></p>
+  <ul>
+    <li>Votre position approximative, uniquement lorsque l'application est en cours d'utilisation
+        (<em>« when in use »</em>) et exclusivement pour afficher la météo locale et suggérer des tenues adaptées.</li>
+    <li>Nous ne stockons pas votre position sur nos serveurs.</li>
+  </ul>
+
+  <p><strong>Données d'achat</strong></p>
+  <ul>
+    <li>Statut d'abonnement Premium (géré par RevenueCat – voir section 5)</li>
+    <li>Nous n'avons accès à aucune donnée bancaire ou de carte de crédit</li>
+  </ul>
+
+  <p><strong>Données techniques</strong></p>
+  <ul>
+    <li>Identifiant anonyme d'appareil (pour la gestion des sessions)</li>
+    <li>Journaux d'erreurs techniques (sans données personnelles identifiables)</li>
+  </ul>
+
+  <h2>3. Finalités et base légale</h2>
+
+  <div class="box">
+    <p>
+      <span class="chip">Exécution du contrat</span>
+      Fournir les fonctionnalités de l'application : gestion du placard, suggestions de tenues,
+      styliste IA, météo, favoris et profil utilisateur.
+    </p>
+  </div>
+  <div class="box" style="margin-top:10px;">
+    <p>
+      <span class="chip">Intérêt légitime</span>
+      Améliorer la qualité du service, analyser les erreurs techniques.
+    </p>
+  </div>
+  <div class="box" style="margin-top:10px;">
+    <p>
+      <span class="chip">Consentement</span>
+      Accès à la localisation et à la galerie photos – vous pouvez retirer ce consentement
+      à tout moment depuis les réglages de votre appareil.
+    </p>
+  </div>
+
+  <h2>4. Stockage et sécurité des données</h2>
+  <p>
+    Vos données sont hébergées sur <strong>Supabase</strong> (infrastructure AWS eu-west-1, Irlande), dans l'Union Européenne.
+    Les communications sont chiffrées via TLS. Les photos de vêtements sont stockées dans un espace de stockage sécurisé
+    accessible uniquement par votre compte.
+  </p>
+  <p>
+    Les données de session sont stockées localement sur votre appareil via un espace de stockage sécurisé
+    (<em>Secure Store</em>). Aucune donnée sensible n'est transmise en clair.
+  </p>
+
+  <h2>5. Partage avec des tiers</h2>
+
+  <p>Nous ne vendons jamais vos données. Nous faisons appel aux prestataires suivants :</p>
+
+  <ul>
+    <li>
+      <strong>Supabase</strong> (base de données et stockage fichiers) –
+      <a href="https://supabase.com/privacy" target="_blank">Politique de confidentialité</a>
+    </li>
+    <li>
+      <strong>RevenueCat</strong> (gestion des abonnements in-app) –
+      <a href="https://www.revenuecat.com/privacy" target="_blank">Politique de confidentialité</a>
+    </li>
+    <li>
+      <strong>Anthropic</strong> (analyse IA des photos de vêtements via nos serveurs uniquement –
+      les images ne sont pas conservées par Anthropic) –
+      <a href="https://www.anthropic.com/privacy" target="_blank">Politique de confidentialité</a>
+    </li>
+    <li>
+      <strong>Open-Meteo</strong> (données météo – aucune donnée personnelle transmise) –
+      <a href="https://open-meteo.com/en/terms" target="_blank">Conditions d'utilisation</a>
+    </li>
+    <li>
+      <strong>Apple App Store / Google Play Store</strong> (distribution et paiements) –
+      soumis à leurs propres politiques respectives
+    </li>
+  </ul>
+
+  <h2>6. Durée de conservation</h2>
+  <ul>
+    <li>Données de compte et garde-robe : conservées tant que votre compte est actif</li>
+    <li>En cas de suppression du compte : toutes les données sont supprimées dans un délai de 30 jours</li>
+    <li>Photos de profil et de vêtements : supprimées immédiatement à votre demande</li>
+  </ul>
+
+  <h2>7. Vos droits (RGPD)</h2>
+  <p>Conformément au RGPD, vous disposez des droits suivants :</p>
+  <ul>
+    <li><strong>Droit d'accès</strong> – obtenir une copie de vos données</li>
+    <li><strong>Droit de rectification</strong> – corriger des données inexactes</li>
+    <li><strong>Droit à l'effacement</strong> – supprimer votre compte et toutes vos données (disponible directement dans l'application, section Profil → Paramètres → Supprimer mon compte)</li>
+    <li><strong>Droit à la portabilité</strong> – recevoir vos données dans un format structuré</li>
+    <li><strong>Droit d'opposition</strong> – s'opposer à certains traitements</li>
+    <li><strong>Droit de retrait du consentement</strong> – révoquer l'accès à la localisation ou aux photos à tout moment</li>
+  </ul>
+  <p>Pour exercer ces droits, contactez-nous à l'adresse indiquée en section 9.</p>
+
+  <h2>8. Mineurs</h2>
+  <p>
+    L'application est destinée aux personnes âgées de 13 ans et plus. Nous ne collectons pas sciemment de données
+    relatives à des enfants de moins de 13 ans. Si vous pensez qu'un mineur a créé un compte, contactez-nous pour
+    que nous procédions à la suppression immédiate de ses données.
+  </p>
+
+  <h2>9. Contact</h2>
+  <div class="box">
+    <p>
+      Pour toute question relative à cette politique ou pour exercer vos droits :<br /><br />
+      <strong>StyleVault</strong><br />
+      📧 <a href="mailto:privacy@style-vault.shop">privacy@style-vault.shop</a>
+    </p>
+  </div>
+
+  <h2>10. Modifications</h2>
+  <p>
+    Nous pouvons mettre à jour cette politique de confidentialité. En cas de modification substantielle,
+    nous vous en informerons via une notification dans l'application ou par e-mail.
+    La date de dernière mise à jour est indiquée en haut de ce document.
+  </p>
+
+</main>
+
+<footer>
+  © 2026 StyleVault · Tous droits réservés
+</footer>
+
+</body>
+</html>
